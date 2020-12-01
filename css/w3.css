@@ -1,0 +1,215 @@
+*{
+	margin:0;
+
+}
+
+html{
+  		scroll-behavior: smooth;
+  	}
+
+body{
+	background-color:#252525;
+	
+}
+
+nav{
+	margin:0;
+}
+
+
+
+#header-nav{
+	background-color:#ff9700;
+	border:none;
+	border-radius:0;
+	margin:0;
+	padding:0;
+
+	
+}
+
+
+.navbar-brand{
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-right:auto;
+	margin-left:0;
+}
+
+
+.navbar-brand h1{
+	letter-spacing: 5px;
+	font-size:2.5em;
+	text-align:left;
+	text-transform:uppercase;
+	color:#252525;
+	font-weight:bold;
+	text-shadow:1px 2px 1px #000;
+	margin-top:0;
+	margin-bottom:0;
+	line-height:.75;
+}
+
+.navbar-brand:hover , .navbar-brand:focus{
+		text-decoration:none;
+	}
+
+		
+/*menu button*/
+.navbar-header .navbar-toggle{
+
+	margin-top:20px;
+	margin-right:25px;
+	border:1px solid #252525;
+	background-color:#252525;
+	opacity:.8;
+	transition:all .3s ease;
+}
+
+.navbar-header .navbar-toggle:hover {
+	background-color:#252525 ;
+}
+
+
+/* list menu */
+	
+#responsiveNavbar{
+	border:none;
+
+}
+
+ #nav-list{
+ 		
+		margin-top:10px;
+		background-color:#4a3423;
+		padding:5px 0 5px 0;
+	}
+
+	
+
+	.item-menu{
+		letter-spacing: 5px;
+		color:#ff9700 !important; 
+		text-align:center;
+		transition:all .3s ease;
+		border-bottom:1px dotted #000;
+		
+	}
+
+	
+
+
+	#nav-list li .item-menu:hover{
+
+		font-size:2em;
+		color:#ff9700;
+	}
+
+	/*content*/
+
+	.row{
+		margin:20px;
+	}
+	#whole-page{
+		color:#ff9700;
+		position:relative;
+	}
+
+
+	#main-header{
+		position:relative;
+		text-align:center;
+		color:#ff9700;
+	}
+
+	#content-header1 , #content-header2 , #content-header3{
+		margin-top:5px;
+		text-align:center;
+	}
+
+	#content{
+	
+		
+		
+		margin-top:20px;
+		margin-bottom:20px;
+		
+	}
+
+	#box{
+		background-color:#4a3423;
+		padding:20px;
+	}
+
+	#BTP{
+		padding-left:15px;
+		font-size:10px;
+		color:#fff;
+
+	}
+	
+
+
+@media (min-width:1200px){
+
+	.navbar-brand h1{
+		font-size:2.5em;
+	}
+
+	.item-menu{
+		font-size:1.8em;
+	}
+
+	#header-nav{
+		height:70px;
+	}
+
+}
+
+@media (min-width:992px) and (max-width:1199px){
+
+	.navbar-brand h1{
+		font-size:2.5em;
+	}
+
+	.item-menu{
+		font-size:1.9em;
+	}
+
+
+	#header-nav{
+		height:70px;
+	}
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+	.item-menu{
+		font-size:1.9em;
+	}
+
+
+	#header-nav{
+		height:70px;
+	}
+
+}
+
+@media(max-width:767px){
+
+	.navbar-header {
+
+	height:70px;
+	 }
+
+	 .navbar-brand{
+	 	margin-top:15px;
+	 }
+
+
+	.navbar-brand h1{
+		font-size:1.3em;
+	}
+	
+}
